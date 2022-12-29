@@ -1,0 +1,45 @@
+.btn{
+    background-color: aquamarine;
+    padding-top: 10px;  
+}
+
+button{
+    margin-top: 10px;   
+    font-size: larger;
+    font-weight: 500;
+    width: 45px;
+}
+
+input{
+    height: 40px;
+    width: 25%;
+    border-radius: 5px;
+    border-color: aquamarine;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.container{
+    margin-top: 12%;
+    
+}
+
+@media (max-width: 480px) {
+    input{
+        height: 40px;
+        width: 50%;
+        border-radius: 5px;
+        border-color: aquamarine;
+    }
+}
+
+@media (max-width: 320px) {
+    input{
+        height: 40px;
+        width: 80%;
+        border-radius: 5px;
+        border-color: aquamarine;
+    }
+}
