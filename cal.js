@@ -1,18 +1,22 @@
 let string = "";
-let button = document.querySelectorAll(".btn");
-Array.from(button).forEach((button)=> {
-    button.addEventListener('click', (e)=>{
-        if(e.target.innerHTML == '='){
+let buttons = document.querySelectorAll(".btn");
+Array.from(buttons).forEach((buttons)=> {
+    buttons.addEventListener('click', (event)=>{
+        if(event.target.innerHTML == '='){
             string=eval(string);
             document.querySelector('input').value = string;
         }
-        else if(e.target.innerHTML == 'C'){
+        else if(event.target.value == ".") {
+            string= eval(string);
+            document.querySelector('input').value = string;
+        }
+        else if(event.target.innerHTML == 'C'){
             string = ""
             document.querySelector('input').value = string;
         }
         else{
-            console.log(e.target)
-            string = string + e.target.innerHTML;
+            console.log(event.target)
+            string = string + event.target.innerHTML;
             document.querySelector('input').value = string;
 
         }

@@ -1,45 +1,54 @@
-.btn{
-    background-color: aquamarine;
-    padding-top: 10px;  
-}
-
-button{
-    margin-top: 10px;   
+.btn {
+    margin-top: 10px;
     font-size: larger;
     font-weight: 500;
     width: 45px;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    padding-right: 2rem;
+    text-align: center;
+    background-clip: border-box;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    box-shadow: 12rem seashell rebeccapurple;
 }
 
-input{
-    height: 40px;
+input {
+    height: 4rem;
     width: 25%;
     border-radius: 5px;
     border-color: aquamarine;
+    border-radius: 1.7rem;
 }
 
-body{
-    background-color: burlywood;
+::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 1.3rem;
 }
 
-.container{
+
+
+.container {
     margin-top: 12%;
-    
+
 }
 
 @media (max-width: 480px) {
-    input{
-        height: 40px;
-        width: 50%;
+    input {
+        height: 4rem;
+        width: 100%;
         border-radius: 5px;
         border-color: aquamarine;
+        border-radius: 1.7rem;
     }
 }
 
 @media (max-width: 320px) {
-    input{
-        height: 40px;
+    input {
+        height: 4rem;
         width: 80%;
         border-radius: 5px;
         border-color: aquamarine;
+        border-radius: 1.7rem;
     }
 }
