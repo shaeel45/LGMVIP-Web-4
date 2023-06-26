@@ -13,6 +13,10 @@
     box-shadow: 12rem seashell rebeccapurple;
 }
 
+.zero{
+  padding-right: 2.5rem;
+}
+
 input {
     height: 4rem;
     width: 25%;
