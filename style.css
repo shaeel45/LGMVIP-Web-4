@@ -23,6 +23,7 @@ input {
     border-radius: 5px;
     border-color: aquamarine;
     border-radius: 1.7rem;
+    text-align: center;
 }
 
 ::-webkit-input-placeholder {
@@ -30,11 +31,15 @@ input {
     font-size: 1.3rem;
 }
 
+:-moz-placeholder{
+    text-align: center;
+}
+
 
 
 .container {
-    margin-top: 12%;
-
+    padding-top: 5%;
+    padding-bottom: 12%;
 }
 
 @media (max-width: 480px) {
